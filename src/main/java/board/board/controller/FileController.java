@@ -1,5 +1,6 @@
 package board.board.controller;
 
+import java.net.MalformedURLException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
@@ -18,7 +19,6 @@ import com.google.common.net.HttpHeaders;
 
 
 @RestController
-//@RequestMapping("/file")
 @RequestMapping(value = {"/file", "/images"})
 public class FileController {
 	

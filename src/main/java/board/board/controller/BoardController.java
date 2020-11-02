@@ -38,6 +38,7 @@ public class BoardController {
 		List<BoardEntity> list = boardService.selectBoardList();
 		mv.addObject("list", list);
 		
+
 		return mv;
 	}
 	
